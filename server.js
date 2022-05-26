@@ -40,6 +40,11 @@ connectToDatabase();
 // using other middlewares
 app.use(express.json());
 
+// home route
+app.get('/', (req, res, next) => {
+  return res.status(200).send('API service running 🚀');
+});
+
 // routing request
 app.use('/api/auth', authRouter);
 app.use('/api/contact', contactRouter);

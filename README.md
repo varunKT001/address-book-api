@@ -1,5 +1,9 @@
 # 🖥️ ADDRESS BOOK API
 
+## ✅ Test the API
+
+**[https://address-book-api-assignment.herokuapp.com/](https://address-book-api-assignment.herokuapp.com/)**
+
 ## 💾 Database schemas
 
 #### Contact schema
